@@ -2,7 +2,7 @@
 
 **Version :** 0.1  
 **Statut :** Construction / Pré-lancement  
-**Dernière mise à jour :** 2026-09-03
+**Dernière mise à jour :** 2026-09-04
 
 ---
 
@@ -14,7 +14,7 @@
 
 **Rôle de #iC AI :** développer des solutions d'IA, logiciels, applications, jeux et technologies pouvant devenir le levier/pivot des futures activités du groupe.
 
-**Situation actuelle :** fondateur seul, assisté par une équipe IA composée de ChatGPT, Claude, Gemini et Perplexity.
+**Situation actuelle :** fondateur seul, assisté par une équipe IA composée de ChatGPT, Claude, Gemini, Perplexity et Codex.
 
 ---
 
@@ -48,7 +48,7 @@ Agro Serenity est constitué :
 - d'une application mobile destinée à certains clients premium ;
 - d'une IA intégrée permettant l'analyse d'images de plantes, le diagnostic et la recommandation d'actions.
 
-Le concept détaillé doit encore être spécifié proprement dans le dossier projet.
+Le concept détaillé doit encore être spécifié proprement lorsqu'un espace projet dédié sera explicitement autorisé.
 
 ---
 
@@ -114,3 +114,11 @@ Puis :
 En parallèle, à cadence maîtrisée :
 
 **P02 — Agro Serenity → cadrage et validation.**
+
+---
+
+## 9. ÉTAT OPÉRATIONNEL DE #iC OS
+
+Le socle #iC OS utilise une structure documentaire plate, organisée logiquement par préfixes numériques. Les fichiers de ce dépôt constituent l'état commun de référence entre les conversations séparées des collaborateurs.
+
+La consolidation Sprint #000.2 a intégré Codex comme agent d'exécution technique et renforcé le protocole de handoff. Aucun espace dédié à P01 ou P02 n'est créé à ce stade ; `02_PROJECTS.md` reste le registre de référence des projets.

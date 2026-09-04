@@ -1,44 +1,40 @@
 # #iC OS
 
-> Système documentaire et opérationnel de #iC AI / #iCorporation.
+> Système documentaire et opérationnel partagé de #iCorporation AI / #iC AI.
 
-## 1. Objectif
+## Objectif
 
-#iC OS est la source de vérité partagée pour la stratégie, les projets, les décisions, les tâches, les connaissances et la coordination de l'équipe IA.
+#iC OS est la source de vérité documentaire de l'équipe #iC AI. Il centralise l'état officiel de la stratégie, des projets, des tâches, des décisions, des connaissances et de la coordination opérationnelle.
 
-Il permet au fondateur et à ChatGPT, Claude, Gemini et Perplexity de travailler dans des conversations séparées tout en conservant un état de travail cohérent.
+Il permet au fondateur, à ChatGPT, Claude, Gemini, Perplexity et Codex de travailler dans des conversations séparées sans confondre une conversation de travail avec l'état officiel du système.
 
-## 2. Principes fondamentaux
+## Principes de fonctionnement
 
-1. **Une seule source de vérité :** l'état officiel de #iC AI est conservé dans ce dépôt.
-2. **Autorité du fondateur :** les IA analysent, proposent, critiquent et exécutent ; les décisions stratégiques nécessitent la validation du fondateur.
-3. **Pas de dispersion :** aucun nouveau projet ne devient actif sans validation du fondateur.
-4. **Fait / Proposition / Décision :** ces trois niveaux ne doivent jamais être confondus.
-5. **Handoff :** toute session de travail importante doit laisser un état transmissible au prochain collaborateur.
-6. **Évolution progressive :** commencer simplement et automatiser seulement lorsque le processus est éprouvé.
+1. **Source de vérité :** l'état officiel est celui qui est enregistré dans les fichiers de ce dépôt.
+2. **Autorité du fondateur :** le fondateur valide la stratégie, les priorités et les décisions officielles.
+3. **Décision et exécution :** les IA peuvent analyser, proposer, critiquer et exécuter les tâches autorisées ; une proposition ne devient pas une décision sans validation explicite du fondateur et inscription dans `07_DECISIONS.md`.
+4. **Pas de dispersion :** aucun nouveau projet ne devient actif sans validation du fondateur.
+5. **Continuité :** les travaux importants suivent le protocole défini dans `AI_HANDOFF.md`.
+6. **Simplicité progressive :** la structure reste légère tant qu'une complexité supplémentaire n'est pas justifiée.
 
-## 3. Focalisation actuelle
+## Structure actuelle
 
-- **P01 — Jeu d'énigmes :** ACTIF — priorité 0.
-- **P02 — Agro Serenity :** ACTIF — priorité 1.
-- **P03 — Joris AI :** R&D silencieuse.
-- **P04 — iCAD :** vision long terme / gelé.
-- Les autres concepts restent dans le portefeuille sans développement actif.
+La structure physique est volontairement **plate**. Les composants actuels de #iC OS sont :
 
-## 4. Structure
+- `README.md` — présentation, principes et structure de #iC OS ;
+- `00_CURRENT_STATE.md` — état opérationnel global ;
+- `01_STRATEGY.md` — stratégie et objectifs validés ;
+- `02_PROJECTS.md` — registre global des projets ;
+- `03_TASKS.md` — backlog et exécution ;
+- `04_KNOWLEDGE.md` — connaissances, recherches et références ;
+- `05_BUSINESS.md` — marché, clients, offres et partenariats ;
+- `06_FINANCE.md` — budget, dépenses, revenus et trésorerie ;
+- `07_DECISIONS.md` — décisions officielles ;
+- `AI_ROLES.md` — rôles et limites de responsabilité de l'équipe ;
+- `AI_HANDOFF.md` — protocole de continuité entre collaborateurs.
 
-- `00_CURRENT_STATE.md` — état actuel global.
-- `01_STRATEGY/` — stratégie et objectifs.
-- `02_PROJECTS/` — registre et espaces projets.
-- `03_TASKS/` — backlog et exécution.
-- `04_KNOWLEDGE/` — connaissances et recherches.
-- `05_BUSINESS/` — marché, clients, ventes et partenariats.
-- `06_FINANCE/` — budget, dépenses et revenus.
-- `07_DECISIONS/` — décisions officielles.
-- `09_AI_TEAM/` — rôles et protocoles de collaboration.
+Les préfixes numériques organisent logiquement les documents. Les chemins historiques utilisant des dossiers, tels que `01_STRATEGY/`, `02_PROJECTS/`, `07_DECISIONS/DECISION_LOG.md` ou `09_AI_TEAM/`, ne sont plus valides.
 
-## 5. Gouvernance
+## Confidentialité
 
-Le fondateur est l'autorité finale pour les décisions stratégiques.
-
-Une recommandation ne devient une décision officielle qu'après validation explicite du fondateur et inscription dans `07_DECISIONS/DECISION_LOG.md`.
+Ce dépôt est public. Il ne doit contenir aucune information confidentielle, secret, clé API, mot de passe, donnée personnelle sensible ou information commerciale non destinée à la publication.

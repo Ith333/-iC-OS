@@ -2,8 +2,9 @@
 
 ## P0 — Foundation
 
-- [ ] Injecter les fichiers fondateurs dans GitHub.
-- [ ] Vérifier la structure du repository.
+- [x] Mettre en place le dépôt documentaire initial et injecter les fichiers fondateurs dans GitHub.
+- [x] Vérifier la structure plate du repository.
+- [x] Consolider les références documentaires de la structure plate et intégrer Codex aux rôles IA.
 - [ ] Valider le protocole AI HANDOFF.
 - [ ] Créer les espaces détaillés P01 et P02.
 
@@ -50,4 +51,4 @@
 
 - [ ] Définir le système de métriques.
 - [ ] Définir les conventions Git.
-- [ ] Définir le protocole de synchronisation inter-IA.
+- [ ] Valider et appliquer le protocole de synchronisation documentaire inter-IA.
